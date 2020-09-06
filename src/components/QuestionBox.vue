@@ -130,7 +130,8 @@ export default {
                     }
                     else if (result.isDismissed) {
                         self.attempts = 2
-                        bus.$emit('next', event);                
+                        bus.$emit('next', event);      
+                        bus.$emit('increment', isCorrect)
                     } 
                 })
                 
