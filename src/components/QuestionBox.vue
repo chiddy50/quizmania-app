@@ -129,6 +129,7 @@ export default {
                         self.answered = false
                     }
                     else if (result.isDismissed) {
+                        self.attempts = 2
                         bus.$emit('next', event);                
                     } 
                 })
