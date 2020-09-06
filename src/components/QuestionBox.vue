@@ -119,19 +119,21 @@ export default {
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
                     cancelButtonColor: '#d33',
+                    cancelButtonText: 'Next question',
                     confirmButtonText: 'Yes, try again'
                     }).then((result) => {
-                        console.log(result);
+                        // console.log(result);
                     if (result.value) {
                         self.shuffleAnswers()
                         self.selectedIndex = null
                         self.answered = false
-                    }else if (result.isDismissed) {
+                    }
+                    else if (result.isDismissed) {
                         bus.$emit('next', event);                
                     } 
                 })
                 
-                console.log(this.attempts);
+                // console.log(this.attempts);
             }
 			this.answered  = true
 
