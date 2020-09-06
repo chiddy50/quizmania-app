@@ -41,4 +41,9 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+
+.swal2-container{
+  z-index: 9999999999999999999999999 !important;
+}
 </style>
