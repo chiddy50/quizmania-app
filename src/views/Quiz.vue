@@ -33,6 +33,8 @@ export default {
     }
   },
   created (){
+    // console.log(questions);
+    
     bus.$on('next', (event) => {
       this.index ++
       if (this.index === this.questionsLength ? true : false ) {
@@ -48,6 +50,8 @@ export default {
   },
   methods: {
     getAllQuestions(){
+      
+      localStorage.removeItem('quiz');
       if (localStorage.getItem('quiz') === null) {
           localStorage.setItem('quiz', JSON.stringify(questions));
           this.questions = questions;
