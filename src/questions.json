@@ -130,5 +130,17 @@
             "Cheetah",
             "Rabbit"
         ]
+    },
+    {
+        "difficulty": "hard",
+        "cartegory": "social",
+        "question": "What is Abigail Makolo's favorite ice cream flavour?",
+        "correct_answer": "Vanilla",
+        "options": [
+            "Stawberry",
+            "Chocolate",
+            "Vanilla",
+            "Mint"
+        ]
     }
 ]
