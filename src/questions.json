@@ -133,14 +133,14 @@
     },
     {
         "difficulty": "hard",
-        "cartegory": "social",
-        "question": "What is Abigail Makolo's favorite ice cream flavour?",
-        "correct_answer": "Vanilla",
+        "cartegory": "programming",
+        "question": "Which of the following is not associated with PHP?",
+        "correct_answer": "Backbone",
         "options": [
-            "Stawberry",
-            "Chocolate",
-            "Vanilla",
-            "Mint"
+            "Slim",
+            "Backbone",
+            "Wordpress",
+            "Symfony"
         ]
     }
 ]
